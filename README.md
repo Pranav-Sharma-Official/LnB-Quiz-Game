@@ -23,15 +23,15 @@ A **Java-based CLI (Command-Line Interface) Quiz Game** that fetches multiple-ch
 
 LnB-Quiz-Game/
 ├── src/
-│ ├── QuizGame.java # Main game logic
-│ ├── Question.java # Data model for each quiz question
-│ ├── QuizService.java # API fetch + JSON parsing
-│ └── TimedInput.java # Timer for input
+│   ├── QuizGame.java          # Main game logic
+│   ├── Question.java          # Data model for each quiz question
+│   ├── QuizService.java       # API fetch + JSON parsing
+│   └── TimedInput.java        # Timer for input
 ├── libs/
-│ └── json-simple-1.1.1.jar # JSON parsing library
-├── scores.txt # Score history (generated after running)
+│   └── json-simple-1.1.1.jar  # JSON parsing library
+├── scores.txt                 # Score history (generated after running)
 ├── README.md
-├── .gitignore
+└── .gitignore
 
 
 ## 🚀 How to Run
